@@ -129,6 +129,8 @@ h1, h2, h3 { text-wrap: balance; font-family: var(--sans); }
 
 /* ---------- section scaffolding ---------- */
 section { padding: 64px 0; scroll-margin-top: 64px; }
+section:nth-of-type(odd) { background: var(--bg); }
+section:nth-of-type(even) { background: var(--card); }
 .sheet-label { margin-bottom: 26px; }
 
 .reveal { opacity: 0; transform: translateY(10px); transition: opacity .5s ease, transform .5s ease; }
