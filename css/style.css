@@ -1,13 +1,15 @@
 :root {
-  --bg: #F0F7F5;
+  --bg: #EDF3F1;
   --card: #FFFFFF;
   --ink: #16211F;
   --ink-soft: #4E625C;
   --ink-faint: #7C8F89;
-  --accent: #12877F;
-  --accent-deep: #0C6961;
-  --accent-tint: #DCEEEC;
-  --line: #D3E4E0;
+  --accent: #54BFA7;
+  --accent-hover: #4FAE99;
+  --accent-tint: #A9DACF;
+  --accent-ink: #2C6054;
+  --on-accent: #16211F;
+  --line: #CED8D6;
   --card-line: color-mix(in srgb, var(--card), black 12%);
   --card-tag: color-mix(in srgb, var(--card), black 8%);
   --mono: ui-monospace, "Cascadia Code", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
@@ -22,9 +24,11 @@
     --ink: #E6EEEC;
     --ink-soft: #9DB0AB;
     --ink-faint: #62766F;
-    --accent: #4FC9BE;
-    --accent-deep: #7BDCD2;
-    --accent-tint: #17322E;
+    --accent: #5ED2B7;
+    --accent-hover: #86E0CB;
+    --accent-tint: #1C3B35;
+    --accent-ink: #8FE6D0;
+    --on-accent: #0D1412;
     --line: #223028;
     color-scheme: dark;
   }
@@ -35,22 +39,26 @@
   --ink: #E6EEEC;
   --ink-soft: #9DB0AB;
   --ink-faint: #62766F;
-  --accent: #4FC9BE;
-  --accent-deep: #7BDCD2;
-  --accent-tint: #17322E;
+  --accent: #5ED2B7;
+  --accent-hover: #86E0CB;
+  --accent-tint: #1C3B35;
+  --accent-ink: #8FE6D0;
+  --on-accent: #0D1412;
   --line: #223028;
   color-scheme: dark;
 }
 :root[data-theme="light"] {
-  --bg: #F0F7F5;
+  --bg: #EDF3F1;
   --card: #FFFFFF;
   --ink: #16211F;
   --ink-soft: #4E625C;
   --ink-faint: #7C8F89;
-  --accent: #12877F;
-  --accent-deep: #0C6961;
-  --accent-tint: #DCEEEC;
-  --line: #D3E4E0;
+  --accent: #54BFA7;
+  --accent-hover: #4FAE99;
+  --accent-tint: #A9DACF;
+  --accent-ink: #2C6054;
+  --on-accent: #16211F;
+  --line: #CED8D6;
   color-scheme: light;
 }
 
@@ -64,11 +72,11 @@ body {
   font-size: 17px;
   line-height: 1.7;
 }
-::selection { background: var(--accent-tint); color: var(--accent-deep); }
+::selection { background: var(--accent-tint); color: var(--accent-ink); }
 
 .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px; }
 
-a { color: var(--accent); }
+a { color: var(--accent-ink); }
 a:focus-visible, button:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
@@ -106,8 +114,8 @@ h1, h2, h3 { text-wrap: balance; font-family: var(--sans); }
 .nav-name { font-family: var(--mono); font-weight: 600; font-size: 14px; letter-spacing: 0.02em; }
 .nav-links { display: flex; gap: 22px; align-items: center; }
 .nav-links a { font-family: var(--sans); font-size: 14px; text-decoration: none; color: var(--ink-soft); transition: color .15s ease; }
-.nav-links a:hover { color: var(--accent); }
-.nav-links a.active { color: var(--accent); font-weight: 700; }
+.nav-links a:hover { color: var(--accent-ink); }
+.nav-links a.active { color: var(--accent-ink); font-weight: 700; }
 .theme-btn {
   background: none;
   border: none;
@@ -117,7 +125,7 @@ h1, h2, h3 { text-wrap: balance; font-family: var(--sans); }
   color: var(--ink-soft);
   line-height: 1;
 }
-.theme-btn:hover { color: var(--accent); }
+.theme-btn:hover { color: var(--accent-ink); }
 
 /* ---------- section scaffolding ---------- */
 section { padding: 64px 0; scroll-margin-top: 64px; }
@@ -158,9 +166,9 @@ section { padding: 64px 0; scroll-margin-top: 64px; }
   color: var(--ink);
   transition: background .15s ease, color .15s ease;
 }
-.btn.primary { background: var(--accent); color: #fff; }
-.btn.primary:hover { background: var(--accent-deep); }
-.btn:not(.primary) { background: var(--accent-tint); color: var(--accent-deep); }
+.btn.primary { background: var(--accent); color: var(--on-accent); }
+.btn.primary:hover { background: var(--accent-hover); }
+.btn:not(.primary) { background: var(--accent-tint); color: var(--accent-ink); }
 .btn:not(.primary):hover { background: var(--line); }
 
 /* ---------- about ---------- */
@@ -174,7 +182,7 @@ section { padding: 64px 0; scroll-margin-top: 64px; }
   font-size: 13px;
   border-radius: 9999px;
   padding: 7px 15px;
-  color: var(--accent-deep);
+  color: var(--accent-ink);
   background: var(--accent-tint);
 }
 
@@ -198,7 +206,7 @@ section { padding: 64px 0; scroll-margin-top: 64px; }
   font-family: var(--sans);
   font-size: 12px;
   font-weight: 600;
-  color: var(--accent-deep);
+  color: var(--accent-ink);
   background: var(--accent-tint);
   border-radius: 9999px;
   padding: 4px 11px;
