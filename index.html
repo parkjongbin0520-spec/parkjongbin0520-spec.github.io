@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>박종빈 — Build Log</title>
+<meta name="description" content="웹 개발을 배우는 학생의 프로필 & 블로그. 만들면서 배우는 중입니다.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <span class="nav-name">박종빈</span>
+    <div class="nav-links">
+      <a href="#about">소개</a>
+      <a href="#skills">기술</a>
+      <a href="#projects">프로젝트</a>
+      <a href="#blog">기록</a>
+      <a href="#contact">연락처</a>
+      <button class="theme-btn" id="themeToggle" type="button" aria-label="테마 전환">◐</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="tb-row">
+        <span>소속 — <b>명지전문대</b></span>
+        <span>상태 — <b>만들면서 배우는 중</b></span>
+        <span>업데이트 — <b>2026.07</b></span>
+      </div>
+      <h1 class="reveal">안녕하세요, 박종빈입니다.</h1>
+      <p class="tagline reveal">웹 개발을 만들면서 배우는 중입니다.</p>
+      <div class="cta-row reveal">
+        <a class="btn primary" href="#projects">프로젝트 보기</a>
+        <a class="btn" href="#contact">연락하기</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <div class="sheet-label"><span class="label">소개</span></div>
+      <p class="reveal">명지전문대 학생이고, 여름방학 비교과 실습을 하면서 웹 개발을 시작했습니다. 처음부터 코드를 쓰기보다 스펙을 먼저 정리하고, 그 스펙을 바탕으로 하나씩 만들어보는 방식으로 배우고 있습니다.</p>
+      <p class="reveal">지금은 로그인 없는 CRUD 게시판을 만들면서 프론트엔드와 서버, 데이터베이스가 어떻게 연결되는지 익히는 중입니다.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="sheet-label"><span class="label">기술</span></div>
+      <div class="stamp-grid reveal">
+        <span class="stamp">HTML</span>
+        <span class="stamp">CSS</span>
+        <span class="stamp">JavaScript</span>
+        <span class="stamp">Vercel Serverless Functions</span>
+        <span class="stamp">MongoDB Atlas</span>
+        <span class="stamp">Git</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="sheet-label"><span class="label">프로젝트</span></div>
+      <div class="card-stack reveal" id="projectList"></div>
+    </div>
+  </section>
+
+  <section id="blog">
+    <div class="wrap">
+      <div class="sheet-label"><span class="label">기록</span></div>
+      <div class="card-stack reveal" id="postList"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="sheet-label"><span class="label">연락처</span></div>
+      <dl class="contact-row reveal">
+        <div><dt>이메일</dt><dd><a href="mailto:parkjongbin0520@gmail.com">parkjongbin0520@gmail.com</a></dd></div>
+        <div><dt>GitHub</dt><dd><a href="https://github.com/parkjongbin0520-spec" target="_blank" rel="noopener">@parkjongbin0520-spec</a></dd></div>
+      </dl>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p class="credit">프레임워크 없이 순수 HTML/CSS/JS로 제작</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
