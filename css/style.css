@@ -172,8 +172,8 @@ section { padding: 64px 0; scroll-margin-top: 64px; }
 .stamp {
   font-family: var(--mono);
   font-size: 13px;
-  border-radius: 6px;
-  padding: 7px 13px;
+  border-radius: 9999px;
+  padding: 7px 15px;
   color: var(--accent-deep);
   background: var(--accent-tint);
 }
@@ -186,6 +186,7 @@ section { padding: 64px 0; scroll-margin-top: 64px; }
   border: 1px solid var(--card-line);
   border-radius: 10px;
   padding: 22px 24px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.03);
 }
 
 .project-head {
@@ -199,8 +200,8 @@ section { padding: 64px 0; scroll-margin-top: 64px; }
   font-weight: 600;
   color: var(--accent-deep);
   background: var(--accent-tint);
-  border-radius: 6px;
-  padding: 4px 9px;
+  border-radius: 9999px;
+  padding: 4px 11px;
   white-space: nowrap;
 }
 .project-body { color: var(--ink-soft); }
@@ -213,8 +214,8 @@ section { padding: 64px 0; scroll-margin-top: 64px; }
   font-size: 11px;
   color: var(--ink-soft);
   background: var(--card-tag);
-  border-radius: 5px;
-  padding: 4px 9px;
+  border-radius: 9999px;
+  padding: 4px 10px;
 }
 
 /* ---------- blog / log ---------- */
