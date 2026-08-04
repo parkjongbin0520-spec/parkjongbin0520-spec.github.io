@@ -24,13 +24,6 @@
     "tags": ["HTML/CSS/JS", "팀 프로젝트", "날씨 API"]
   },
   {
-    "name": "HypeJumper",
-    "status": "진행중",
-    "description": "오가닉 에코 홀로그램 컨셉의 점프 액션 게임을 기획, 디자인, 구현까지 진행 중인 개인 게임 개발 프로젝트입니다.",
-    "repoUrl": "https://github.com/parkjongbin0520-spec/hypeJumper",
-    "tags": ["Python", "C#", "게임 개발"]
-  },
-  {
     "name": "나만의 마법 매거진",
     "status": "배포됨",
     "description": "CSS Grid와 Transition/Animation, CSS 변수(var)를 활용해 나만의 매거진 커버를 만든 프론트엔드 프로그래밍 7주차 과제입니다.",
