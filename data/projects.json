@@ -6,5 +6,52 @@
     "demoUrl": "https://board-implementation.vercel.app",
     "repoUrl": "https://github.com/parkjongbin0520-spec",
     "tags": ["HTML/CSS/JS", "Vercel Functions", "MongoDB Atlas"]
+  },
+  {
+    "name": "몰래 게임하기",
+    "status": "배포됨",
+    "description": "선생님 몰래 리듬 노트 게임을 하며 들키지 않고 버티는 생존형 미니게임입니다. Phaser 3로 게임 루프와 입력 처리, 상태 관리를 익히기 위해 만들었습니다.",
+    "demoUrl": "https://parkjongbin0520-spec.github.io/secretly-playing-game/",
+    "repoUrl": "https://github.com/parkjongbin0520-spec/secretly-playing-game",
+    "tags": ["HTML/CSS/JS", "Phaser 3", "게임"]
+  },
+  {
+    "name": "입을만해",
+    "status": "배포됨",
+    "description": "위치 기반 날씨 정보를 숫자가 아닌 그림으로 보여주고, 그날 기온에 맞는 옷차림을 추천해주는 팀 프로젝트입니다. 프론트엔드 팀 과제로 기획부터 배포까지 진행했습니다.",
+    "demoUrl": "https://parkjongbin0520-spec.github.io/clothsite/",
+    "repoUrl": "https://github.com/parkjongbin0520-spec/clothsite",
+    "tags": ["HTML/CSS/JS", "팀 프로젝트", "날씨 API"]
+  },
+  {
+    "name": "HypeJumper",
+    "status": "진행중",
+    "description": "오가닉 에코 홀로그램 컨셉의 점프 액션 게임을 기획, 디자인, 구현까지 진행 중인 개인 게임 개발 프로젝트입니다.",
+    "repoUrl": "https://github.com/parkjongbin0520-spec/hypeJumper",
+    "tags": ["Python", "C#", "게임 개발"]
+  },
+  {
+    "name": "나만의 마법 매거진",
+    "status": "배포됨",
+    "description": "CSS Grid와 Transition/Animation, CSS 변수(var)를 활용해 나만의 매거진 커버를 만든 프론트엔드 프로그래밍 7주차 과제입니다.",
+    "demoUrl": "https://parkjongbin0520-spec.github.io/Magazine-CSS-7week/",
+    "repoUrl": "https://github.com/parkjongbin0520-spec/Magazine-CSS-7week",
+    "tags": ["CSS", "CSS Grid", "Animation"]
+  },
+  {
+    "name": "프랜차이즈 카페 티어 리스트",
+    "status": "배포됨",
+    "description": "커피 프랜차이즈 브랜드 선호도를 드래그 앤 드롭으로 매길 수 있는 티어 리스트 메이커입니다. 분반101 팀 과제로 진행했습니다.",
+    "demoUrl": "https://parkjongbin0520-spec.github.io/tiergame/",
+    "repoUrl": "https://github.com/parkjongbin0520-spec/tiergame",
+    "tags": ["HTML/CSS/JS", "팀 프로젝트", "Drag & Drop"]
+  },
+  {
+    "name": "버킷리스트 아트 월",
+    "status": "배포됨",
+    "description": "팀원들의 버킷리스트를 카드 형태로 모아 보여주는 아트 월 페이지입니다. 분반101 프론트엔드 5주차 팀 과제입니다.",
+    "demoUrl": "https://parkjongbin0520-spec.github.io/bucket-list/",
+    "repoUrl": "https://github.com/parkjongbin0520-spec/bucket-list",
+    "tags": ["HTML/CSS", "팀 프로젝트"]
   }
 ]
